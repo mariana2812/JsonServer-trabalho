@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$lsa6/.aSVyPJg9dzhYZSnecv53pZKt0.fPwVFRDERL9Vmu71MHxZ6",
+      "id": 1
+    }
+  ],
+  "pokedex": [
+    {
+      "user": {
+        "id": 1
+      },
+      "pokemon": [],
+      "id": 2
+    }
+  ]
+}
