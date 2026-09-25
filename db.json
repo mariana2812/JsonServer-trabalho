@@ -4,6 +4,12 @@
       "email": "olivier@mail.com",
       "password": "$2a$10$lsa6/.aSVyPJg9dzhYZSnecv53pZKt0.fPwVFRDERL9Vmu71MHxZ6",
       "id": 1
+    },
+    {
+      "email": "tt@email.com",
+      "password": "$2a$10$cKZaxfjj12HU9W/U9VIDv.BHjLfhGPwl2Ub1jSdPL4xIqUniar58S",
+      "id": 3,
+      "avatarId": "2"
     }
   ],
   "pokedex": [
@@ -15,66 +21,66 @@
       "id": 2
     }
   ],
-  "avatar":[
+  "avatar": [
     {
-      "id":"1",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=ab"
-    },
-     {
-      "id":"2",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=bc"
+      "id": "1",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=ab"
     },
     {
-      "id":"3",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=abcd"
-    },
-     {
-      "id":"4",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=bfs"
-    },
-        {
-      "id":"5",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=aasgf"
-    },
-     {
-      "id":"6",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=biras"
+      "id": "2",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=bc"
     },
     {
-      "id":"7",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=aopas"
-    },
-     {
-      "id":"8",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=burro"
-    },
-        {
-      "id":"9",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=alasca"
-    },
-     {
-      "id":"10",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=bastion"
+      "id": "3",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=abcd"
     },
     {
-      "id":"11",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=aatrox"
-    },
-     {
-      "id":"12",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=blitz"
+      "id": "4",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=bfs"
     },
     {
-      "id":"13",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=jose"
+      "id": "5",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=aasgf"
     },
     {
-      "id":"14",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=rumble"
+      "id": "6",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=biras"
     },
     {
-      "id":"15",
-      "url":"https://api.dicebear.com/9.x/bottts/svg?seed=cavalo"
+      "id": "7",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=aopas"
+    },
+    {
+      "id": "8",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=burro"
+    },
+    {
+      "id": "9",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=alasca"
+    },
+    {
+      "id": "10",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=bastion"
+    },
+    {
+      "id": "11",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=aatrox"
+    },
+    {
+      "id": "12",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=blitz"
+    },
+    {
+      "id": "13",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=jose"
+    },
+    {
+      "id": "14",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=rumble"
+    },
+    {
+      "id": "15",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=cavalo"
     }
   ]
 }
