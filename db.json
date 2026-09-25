@@ -6,12 +6,12 @@
       "id": 1
     }
   ],
-  "pokedex": [
+  "Blog": [
     {
       "user": {
         "id": 1
       },
-      "pokemon": [],
+      "fandom": [],
       "id": 2
     }
   ]
