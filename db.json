@@ -81,6 +81,10 @@
     {
       "id": "15",
       "url": "https://api.dicebear.com/9.x/bottts/svg?seed=cavalo"
+    },
+    {
+      "id": "16",
+      "url": "https://api.dicebear.com/9.x/bottts/svg?seed=haze"
     }
   ]
 }
