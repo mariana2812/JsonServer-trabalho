@@ -1,0 +1,301 @@
+{
+    "users": [
+        {
+            "email": "olivier@mail.com",
+            "password": "$2a$10$lsa6/.aSVyPJg9dzhYZSnecv53pZKt0.fPwVFRDERL9Vmu71MHxZ6",
+            "id": 1
+        },
+        {
+            "email": "mariana@teste.gmail",
+            "password": "$2a$10$lA3FxUQ007mHK5Q1X9hzh.2RVg2h0CWKwt.NU40EXuSWn3BZfO4q.",
+            "id": 2,
+            "nome": "mariana",
+            "biografia": "sla",
+            "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=Paladino",
+            "privado": true
+        },
+        {
+            "email": "henry.mdasilveira@gmail.com",
+            "password": "$2a$10$zVB94L5QjkdkGTg630/6DOZ5NH9iBRGnjzkJ2PJ3OiQOtjQ7nwVQ2",
+            "id": 3,
+            "nome": "Henry",
+            "biografia": "Gosto de jogar rpg",
+            "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=Mariana"
+        },
+        {
+            "email": "andri@teste.com",
+            "password": "$2a$10$QPpjJzFhRQXoZuw.bk76SukpX2HCX97ZtoB2wZZvJfqHe29ee4Xl2",
+            "id": 4,
+            "nome": "Andriele",
+            "biografia": "",
+            "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=Arqueiro"
+        },
+        {
+            "email": "tt@email.com",
+            "password": "$2a$10$cKZaxfjj12HU9W/U9VIDv.BHjLfhGPwl2Ub1jSdPL4xIqUniar58S",
+            "id": 5,
+            "avatarId": "2",
+            "avatar": "https://api.dicebear.com/9.x/bottts/svg?seed=bc"
+        }
+    ],
+    "blog": [
+        {
+            "userId": 3,
+            "imagem": "",
+            "sistema": "",
+            "user": {
+                "id": 3
+            },
+            "conteudo": "N ,KJNK",
+            "created_at": "2026-09-29T20:57:03.457Z",
+            "id": 1
+        }
+    ],
+    "comments": [],
+    "likes": [],
+    "friends": [
+        {
+            "userId": "3",
+            "friendId": "2",
+            "status": "pending",
+            "id": 1
+        }
+    ],
+    "systems": [
+        {
+            "nome": "ded",
+            "id": 1
+        },
+        {
+            "nome": "JKN BM",
+            "fandom": [],
+            "id": 2
+        },
+        {
+            "nome": "wsde",
+            "id": 3
+        }
+    ],
+    "userSystems": [
+        {
+            "userId": "3",
+            "systemId": 1,
+            "id": 1
+        },
+        {
+            "userId": "3",
+            "systemId": 2,
+            "id": 2
+        },
+        {
+            "userId": "2",
+            "systemId": 3,
+            "id": 3
+        }
+    ],
+    "campaigns": [
+        {
+            "nome": "Armagedron",
+            "sistema": "ordem paranormal",
+            "descricao": ";",
+            "maxJogadores": 5,
+            "masterId": "2",
+            "status": "fechada",
+            "created_at": "2026-09-29T19:45:59.179Z",
+            "id": 2
+        }
+    ],
+    "campaignMembers": [],
+    "characters": [],
+    "notifications": [],
+    "messages": [
+        {
+            "senderId": "2",
+            "receiverId": 3,
+            "conteudo": "oiii",
+            "created_at": "2026-09-29T18:29:21.431Z",
+            "id": 1
+        },
+        {
+            "senderId": "3",
+            "receiverId": 2,
+            "conteudo": "oiii",
+            "created_at": "2026-09-29T18:33:20.166Z",
+            "id": 2
+        },
+        {
+            "senderId": "2",
+            "receiverId": 3,
+            "conteudo": "OIII HENRY",
+            "created_at": "2026-09-29T20:15:10.047Z",
+            "id": 3
+        },
+        {
+            "senderId": "3",
+            "receiverId": 2,
+            "conteudo": "OII",
+            "created_at": "2026-09-29T20:33:45.337Z",
+            "id": 4
+        },
+        {
+            "communityId": 1,
+            "senderId": "2",
+            "conteudo": "OIII",
+            "created_at": "2026-09-29T20:47:40.477Z",
+            "id": 5
+        },
+        {
+            "senderId": "3",
+            "receiverId": 2,
+            "conteudo": ".~Ç/",
+            "created_at": "2026-09-29T20:52:21.522Z",
+            "id": 6
+        },
+        {
+            "senderId": "3",
+            "receiverId": 2,
+            "conteudo": ".;",
+            "created_at": "2026-09-29T20:52:21.762Z",
+            "id": 7
+        },
+        {
+            "senderId": "3",
+            "receiverId": 2,
+            "conteudo": "LÇ,",
+            "created_at": "2026-09-29T20:52:23.962Z",
+            "id": 8
+        },
+        {
+            "senderId": "3",
+            "receiverId": 2,
+            "conteudo": "http://127.0.0.1:5500/Blog/index.html#post-1",
+            "created_at": "2026-09-29T20:59:12.204Z",
+            "id": 9
+        },
+        {
+            "senderId": "2",
+            "receiverId": 3,
+            "conteudo": "hj",
+            "created_at": "2026-09-29T21:21:33.670Z",
+            "id": 10
+        }
+    ],
+    "campaignPosts": [],
+    "communities": [
+        {
+            "nome": "ordem paranormal",
+            "descricao": "O paranormal não vem para nossa realidade de maneira fácil...",
+            "ownerId": "4",
+            "id": 1
+        },
+        {
+            "nome": "JNKN K",
+            "descricao": "MLK, M",
+            "ownerId": "3",
+            "id": 2
+        }
+    ],
+    "communityMembers": [
+        {
+            "communityId": 1,
+            "userId": "2",
+            "id": 3
+        },
+        {
+            "communityId": 1,
+            "userId": "3",
+            "id": 4
+        }
+    ],
+    "avatar": [
+        {
+            "id": "1",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=ab"
+        },
+        {
+            "id": "2",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=bc"
+        },
+        {
+            "id": "3",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=abcd"
+        },
+        {
+            "id": "4",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=bfs"
+        },
+        {
+            "id": "5",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=aasgf"
+        },
+        {
+            "id": "6",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=biras"
+        },
+        {
+            "id": "7",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=aopas"
+        },
+        {
+            "id": "8",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=burro"
+        },
+        {
+            "id": "9",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=alasca"
+        },
+        {
+            "id": "10",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=bastion"
+        },
+        {
+            "id": "11",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=aatrox"
+        },
+        {
+            "id": "12",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=blitz"
+        },
+        {
+            "id": "13",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=jose"
+        },
+        {
+            "id": "14",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=rumble"
+        },
+        {
+            "id": "15",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=cavalo"
+        },
+        {
+            "id": "16",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=haze"
+        },
+        {
+            "id": 17,
+            "nome": "Guerreiro",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=Guerreiro"
+        },
+        {
+            "id": 18,
+            "nome": "Mago",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mago"
+        },
+        {
+            "id": 19,
+            "nome": "Paladino",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=Paladino"
+        },
+        {
+            "id": 20,
+            "nome": "Arqueiro",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=Arqueiro"
+        },
+        {
+            "id": 21,
+            "nome": "Mestre",
+            "url": "https://api.dicebear.com/9.x/bottts/svg?seed=Mestre"
+        }
+    ]
+}

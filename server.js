@@ -1,22 +1,28 @@
+﻿const path = require("path");
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 const cors = require("cors");
-const port = process.env.PORT || 3001;
+const rules = require("./routes.json");
 
-const app = jsonServer.create();
-const router = jsonServer.router("db.json");
+function createApp(database = path.join(__dirname, "db.json")) {
+  const app = jsonServer.create();
+  const router = jsonServer.router(database);
 
-app.db = router.db;
+  app.db = router.db;
+  app.use(cors());
+  app.use(jsonServer.bodyParser);
+  app.use(auth.rewriter(rules));
+  app.use(auth);
+  app.use(router);
 
-const rules = auth.rewriter({
-  users: 664,
-});
+  return app;
+}
 
-app.use(cors());
-app.use(rules);
-app.use(auth);
-app.use(router);
-// app.listen(port);
+if (require.main === module) {
+  const port = process.env.PORT || 3001;
+  createApp().listen(port, () => {
+    console.log("Servidor rodando na porta " + port);
+  });
+}
 
-app.listen(port, () => console.log("Server is running on port:", port));
-/* A senha do admin é 123456 */
+module.exports = createApp;
